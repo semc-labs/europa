@@ -69,4 +69,11 @@ Name | Type | Purpose
 `Ki` | `F32` | Integral gain
 `Kd` | `F32` | Derivative gain
 
+### 4.2 `PIDInPort`
+
+Name | Type | Purpose
+---- | ---- | ----
+`setpoint` | `F32` | Control setpoint
+`measurement` | `F32` | Measured input
+
 ## 6 Unit Tests
