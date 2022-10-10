@@ -6,5 +6,5 @@ include("${FPRIME_FRAMEWORK_PATH}/cmake/FPrime.cmake")
 include("${FPRIME_FRAMEWORK_PATH}/cmake/FPrime-Code.cmake")
 
 add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Util/")
-add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Ports/")
+#add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/Ports/")
 add_fprime_subdirectory("${CMAKE_CURRENT_LIST_DIR}/SignalProcessing/")
