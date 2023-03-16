@@ -10,7 +10,10 @@
 
 ## Signal Processing
 
+ * [PID Controller](https://github.com/semc-labs/europa/tree/master/SignalProcessing/PIDController) Status: Implementation complete, no tests.
+
 ## GN&C
 
 ## Utilities
 
+ * [Finite-state Machine](https://github.com/semc-labs/europa/tree/master/Util/FSM) Status: In Development.
