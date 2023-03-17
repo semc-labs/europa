@@ -32,14 +32,14 @@ Name | Type | Role
 Name | Type | Kind | Purpose
 ---- | ---- | ---- | ----
 `getState` | `state: U8` | sync input | Returns the current state
-`onTransition` | `state: U8` | output | Signal when the state changes
-`transistion` | `newState: U8` | sync input | Triggers a state transition
+`onTransition` | `transitionId: U16` | output | Signal when the state changes
+`transistion` | `transitionId: U16` | sync input | Triggers a state transition
 
 ### 3.4 Constants
 
 Name | Type | Purpose
 ---- | ---- | ----
-`transitions` | `U16[][] = {{curState, newState}}` | Represent valid state transistions
+`transitions` | `U8[][] = {{curState, newState}}` | Represent valid state transistions
 
 ### 3.5 Commands
 
@@ -58,6 +58,6 @@ Name | Parameters | Severity | Purpose
 
 Name | Type | Purpose
 ---- | ---- | ----
-`CurrentState` | `state: U8` | Indicate current state
+`State` | `state: U8` | Indicate current state
 
 ## 6 Unit Tests
